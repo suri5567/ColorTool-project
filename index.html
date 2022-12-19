@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<script src="/scrimba1.js" defer></script>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200&family=Source+Serif+Pro:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+	<title>Color Tool</title>
+</head>
+<body>
+	<div class="container1">
+	<div class="container">
+		<h1 class="title">Lighten Color/Darken Color</h1>
+		<label for="hex" class="hexlabel">Color (Hex)</label>
+	 <input type="text" name="hex" id="hexInput" 
+	  placeholder="#000000"/>
+
+	  <div class="toggle">
+		<p id="lighten-text" class="toggle-text">Lighten</p>
+		<div id="toggle-btn" class="toggle-btn">
+			<div class="inner-circle"></div>
+		</div>
+		<p id="darken-text" class="toggle-text " >Darken</p>
+	  </div>
+
+	 <label for="slider" id="sliderText">0%</label>
+	 <input type="range" min="0" max="100" name="slider" 
+	id="slider" class="slider" value="0"/>
+	
+     <p>Input Color</p>
+	  <div class="box" id="inputColor"></div>
+     <p id="alteredColorText">Altered Color</p>
+	 <div class="box" id="alteredColor"></div>
+ </div>
+</div>
+</body>
+
+</html>
