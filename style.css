@@ -4,11 +4,12 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: tomato;
+	font-family: 'Montserrat', sans-serif;
+    background-color: #4c556da8;
     color: white;
-	position:relative;
+    position: relative;
 }
+
 
 .container1{
     position: absolute;
